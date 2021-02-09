@@ -49,7 +49,7 @@ CCTV17,http://39.135.138.59:18890/PLTV/88888910/224/3221225908/index.m3u8
 新疆卫视,http://39.135.138.59:18890/PLTV/88888910/224/3221225725/index.m3u8
 旅游卫视,http://39.135.138.59:18890/PLTV/88888910/224/3221225722/index.m3u8
 贵州卫视,http://39.135.138.59:18890/PLTV/88888910/224/3221225728/index.m3u8
-u辽宁卫视,http://39.135.138.59:18890/PLTV/88888910/224/3221225696/index.m3u8
+辽宁卫视,http://39.135.138.59:18890/PLTV/88888910/224/3221225696/index.m3u8
 
 教育网络,#genre#
 CCTV-1,http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
@@ -394,7 +394,7 @@ CCTV中学生,http://hdtv.lzu6.edu.cn/hls/hls184a536.m3u8
 BTV文艺,http://hdtv.lzu6.edu.cn/hls/btv2.m3u8
 BTV科教,http://hdtv.lzu6.edu.cn/hls/btv3.m3u8
 BTV影视,http://hdtv.lzu6.edu.cn/hls/btv4.m3u8
-BTV财*,http://hdtv.lzu6.edu.cn/hls/btv5.m3u8
+BTV财经,http://hdtv.lzu6.edu.cn/hls/btv5.m3u8
 BTV生活,http://hdtv.lzu6.edu.cn/hls/btv7.m3u8
 BTV青年,http://hdtv.lzu6.edu.cn/hls/btv8.m3u8
 BTV新闻,http://hdtv.lzu6.edu.cn/hls/btv9.m3u8
@@ -451,8 +451,8 @@ GTV游戏竞技,http://hdtv.lzu6.edu.cn/hls/hls112.m3u8
 精选,http://hdtv.lzu6.edu.cn/hls/hls102.m3u8
 星影,http://hdtv.lzu6.edu.cn/hls/hls59.m3u8
 纪录片,http://hdtv.lzu6.edu.cn/hls/hls66.m3u8
-家庭理*,http://hdtv.lzu6.edu.cn/hls/hls19.m3u8
-家庭理*,http://hdtv.lzu6.edu.cn/hls/hls15.m3u8
+家庭理财,http://hdtv.lzu6.edu.cn/hls/hls19.m3u8
+家庭理财,http://hdtv.lzu6.edu.cn/hls/hls15.m3u8
 靓妆,http://hdtv.lzu6.edu.cn/hls/hls46.m3u8
 吉视公共,http://hdtv.lzu6.edu.cn/hls/jlu_jsgg.m3u8
 吉林都市,http://hdtv.lzu6.edu.cn/hls/jlu_jsds.m3u8
