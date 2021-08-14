@@ -101,22 +101,22 @@
       ]
     },
     { 
-      "key": "afys_spider",       
+      "key": "Spider1",       
       "name": "阿房影视",       
       "type": 2,       
-      "api": "Scrawl1",  
+      "api": "Scrawl1"
     },
     {  
-       "key": "jpys_spider",       
-       "name": "极品影视",       
+       "key": "Spider2",
+       "name": "极品影视",
        "type": 2,       
-       "api": "Scrawl2",  
+       "api": "Scrawl2"
     },
     {       
-       "key": "mgys_spider",       
-       "name": "暮光影视",       
+       "key": "Spider3", 
+       "name": "暮光影视",
        "type": 2,       
-       "api": "Scrawl3",   
+       "api": "Scrawl3"
     },
     { 
       "key": "八戒采集",       
