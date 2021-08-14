@@ -2,9 +2,9 @@
   "data": [
     {
       "id": 1,
-      "name": "百度云",
-      "url": "https://m3u8.apibdzy.com/api.php/provide/vod/at/xml/",
-      "cate": "动作片,21&&喜剧片,22&&爱情片,23&&科幻片,24&&恐怖片,25&&动画电影,28&&国产剧,32&&韩国剧,59&&美国剧,35&&日本剧,34&&大陆综艺,37&&日韩综艺,38&&国产动漫,42&&日韩动漫,43&&欧美动漫,44",
+      "name": "极速",
+      "url": "http://api.hszbj.net/api.php/provide/vod/at/xml",
+      "cate": "电影,1&&连续剧,2",
       "click": true,
       "wePlus": {}
     },
