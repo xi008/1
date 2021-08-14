@@ -106,6 +106,21 @@
       "type": 2,
       "api": "Scrawl1"
     },
+    { 
+      "key": "八戒采集",       
+      "name": "八戒采集",       
+      "type": 0,       
+      "api": "http://cj.bajiecaiji.com/inc/bjm3u8.php",       
+      "categories": [         
+      "电影",         
+      "剧集",         
+      "综艺",         
+      "动漫",         
+      "动作片",         
+      "喜剧片",         
+      "国产剧"       
+      ]     
+    },
     {
       "key": "柚子资源",
       "name": "柚子资源",
