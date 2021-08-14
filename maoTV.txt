@@ -100,11 +100,26 @@
         "纪录片"
       ]
     },
-    {
-      "key": "Spider1",
-      "name": "爬虫源1",
-      "type": 2,
-      "api": "Scrawl1"
+    { 
+      "key": "afys_spider",       
+      "name": "阿房影视",       
+      "type": 0,       
+      "api": "Scrawl1",       
+      "playUrl": ""     
+    },
+    {  
+       "key": "jpys_spider",       
+       "name": "极品影视",       
+       "type": 0,       
+       "api": "Scrawl2",       
+       "playUrl": ""     
+    },
+    {       
+       "key": "mgys_spider",       
+       "name": "暮光影视",       
+       "type": 0,       
+       "api": "Scrawl3",       
+       "playUrl": ""     
     },
     { 
       "key": "八戒采集",       
