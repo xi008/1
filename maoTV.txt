@@ -103,23 +103,20 @@
     { 
       "key": "afys_spider",       
       "name": "阿房影视",       
-      "type": 0,       
-      "api": "Scrawl1",       
-      "playUrl": ""     
+      "type": 2,       
+      "api": "Scrawl1",  
     },
     {  
        "key": "jpys_spider",       
        "name": "极品影视",       
-       "type": 0,       
-       "api": "Scrawl2",       
-       "playUrl": ""     
+       "type": 2,       
+       "api": "Scrawl2",  
     },
     {       
        "key": "mgys_spider",       
        "name": "暮光影视",       
-       "type": 0,       
-       "api": "Scrawl3",       
-       "playUrl": ""     
+       "type": 2,       
+       "api": "Scrawl3",   
     },
     { 
       "key": "八戒采集",       
