@@ -1,10 +1,10 @@
 {
   "sites": [
-   {
+    {
       "key": "番茄",
       "name": "番茄",
-      "type": 0,
-      "api": "https://api.fqzy.cc/api.php/provide/vod/at/xml/",
+      "type": 1,
+      "api": "http://api.fqzy.cc/api.php/provide/vod/?ac=list",
       "playUrl": "https://jx.fqzy.cc/jx.php?url="
     },
     {
@@ -24,7 +24,7 @@
       "key": "605资源",
       "name": "605资源",
       "type": 0,
-      "api": "http://www.605zy.co/inc/api.php"
+      "api": "http://www.765zy.com/inc/api.php"
     },
     {
       "key": "8090云资源",
@@ -63,10 +63,10 @@
        "api": "Scrawl2"
     },
     {       
-       "key": "Spider3", 
-       "name": "暮光影视",
-       "type": 2,       
-       "api": "Scrawl3"
+       "key": "宅看影视", 
+       "name": "宅看影视",
+       "type": 0,       
+       "api": "http://www.zhaikanys.xyz/api.php/provide/vod/at/xml"
     },
     { 
       "key": "八戒采集",       
@@ -682,10 +682,6 @@
       "url": "https://z1.m1907.cn/?jx="
     },
     {
-      "name": "OK解析",
-      "url": "https://okjx.cc?url="
-    },
-    {
       "name": "麻瓜解析",
       "url": "http://player.maguays.cc/?url="
     },
@@ -734,24 +730,8 @@
       "url": "https://vip.laobandq.com/jiexi.php?url="
     },
     {
-      "name": "Mao解析",
-      "url": "https://qd.hxys.tv/m3u8.php?url="
-    },
-    {
       "name": "盘古",
       "url": "https://www.pangujiexi.cc/jiexi.php?url="
-    },
-    {
-      "name": "SSAMAO",
-      "url": "https://www.ssamao.com/jx/?url="
-    },
-    {
-      "name": "无极",
-      "url": "https://da.wujiys.com/?url="
-    },
-    {
-      "name": "618G",
-      "url": "https://jx.618g.com/?url="
     },
     {
       "name": "ckmov",
@@ -760,10 +740,6 @@
     {
       "name": "迪奥",
       "url": "https://123.1dior.cn/?url="
-    },
-    {
-      "name": "福星",
-      "url": "https://jx.popo520.cn/jiexi/?url="
     },
     {
       "name": "RDHK",
@@ -790,10 +766,6 @@
       "url": "https://vip.laobandq.com/jiexi.php?url="
     },
     {
-      "name": "乐喵",
-      "url": "https://jx.hao-zsj.cn/vip/?url="
-    },
-    {
       "name": "MUTV",
       "url": "https://jiexi.janan.net/jiexi/?url="
     },
@@ -803,7 +775,7 @@
     },
     {
       "name": "磨菇",
-      "url": "https://jx.wzslw.cn/?url="
+      "url": "http://jx.4080jx.cc/?url="
     },
     {
       "name": "OK",
@@ -816,10 +788,6 @@
     {
       "name": "小蒋",
       "url": "https://www.kpezp.cn/jlexi.php?url="
-    },
-    {
-      "name": "小狼",
-      "url": "https://jx.yaohuaxuan.com/?url="
     },
     {
       "name": "智能",
@@ -852,10 +820,6 @@
     {
       "name": "66",
       "url": "https://api.3jx.top/vip/?url="
-    },
-    {
-      "name": "116",
-      "url": "https://jx.116kan.com/?url="
     },
     {
       "name": "200",
