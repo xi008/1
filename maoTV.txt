@@ -1,17 +1,17 @@
 {
   "sites": [
-    {
-      "key": "快播云",
-      "name": "快播云",
-      "type": 0,
-      "api": "http://www.kuaibozy.com/api.php/provide/vod/at/xml/"
-    },
-    {
+   {
       "key": "番茄",
       "name": "番茄",
       "type": 0,
       "api": "https://api.fqzy.cc/api.php/provide/vod/at/xml/",
       "playUrl": "https://jx.fqzy.cc/jx.php?url="
+    },
+    {
+      "key": "快播云",
+      "name": "快播云",
+      "type": 0,
+      "api": "http://www.kuaibozy.com/api.php/provide/vod/at/xml/"
     },
     {
       "key": "1717资源",
