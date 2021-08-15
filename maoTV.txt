@@ -186,7 +186,7 @@
         "大陆综艺",
         "台湾综艺",
         "韩国综艺",
-        "香港综艺",
+        "香港综艺"
       ]
     },
     {
@@ -424,7 +424,6 @@
           "urls": [
             "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8",
             "http://125.210.152.18:9090/live/FHZW_1200.m3u8",
-            "rtmp://58.200.131.2:1935/livetv/fhzw","
             "http://liveali.ifeng.com/live/FHZW.flv"
           ]
         },
@@ -433,7 +432,6 @@
           "urls": [
             "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8",
             "http://125.210.152.18:9090/live/FHZX_1200.m3u8",
-            "rtmp://58.200.131.2:1935/livetv/fhzx",
             "http://liveali.ifeng.com/live/FHZX.flv"
           ]
         }
