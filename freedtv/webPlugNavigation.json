@@ -365,7 +365,7 @@
       "webOpen": false,
       "click": true,
       "webPlus": {
-        "search_url": "https://v.emsdn.cn/index.php?m=vod-search{kw}",
+        "search_url": "https://v.emsdn.cn/index.php?m=vod-search-wd-{kw}",
         "nav_url": "https://v.emsdn.cn/vod-type-id-navCate-pg-navPage.html",
         "cate_url": "",
         "web_name": "农民影视",
