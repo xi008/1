@@ -2277,7 +2277,7 @@
     {
       "id": 1,
       "parseName": "解析",
-      "parseUrl": "https://jiexi.linzhiyuan.xyz/jiexi/?url=",
+      "parseUrl": "https://jx.parwix.com:4433/player/?url=",
       "click": true
     },
     {
@@ -2301,7 +2301,7 @@
     {
       "id": 5,
       "parseName": "解析4",
-      "parseUrl": "https://jx.parwix.com:4433/player/?url=",
+      "parseUrl": "https://jiexi.linzhiyuan.xyz/jiexi/?url=",
       "click": true
     },
     {
