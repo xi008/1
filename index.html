@@ -93,27 +93,22 @@
 				var Username = $("#Username").val();
 				var RepositoryName = $("#RepositoryName").val();
 				var BranchesName = $("#BranchesName").val();
-				var Path = $("#Path").val();
+				
 				var FileName = $("#FileName").val();
-				if(Path[0] == "/") {
-					Path = Path.substr(1);
-				}
-				if(Path[Path.length - 1] == "/") {
-					Path = Path.substr(0, Path.length - 1);
-				}
-				if(!Username || !RepositoryName || !BranchesName || !Path || !FileName) {
+			
+				if(!Username || !RepositoryName || !BranchesName || !FileName) {
 					alert("有值为空！")
 				}
-				str = "FastGit：<a href=\"https://raw.fastgit.org/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + Path + "/" + FileName + "\">https://raw.fastgit.org/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + Path + "/" + FileName + "</a><br >";
-				//str += "Bajins：<a href=\"https://github.bajins.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + Path + "/" + FileName + "\">https://github.bajins.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + Path + "/" + FileName + "</a><br >";
-				str += "CF加速：<a href=\"https://github.rc1844.workers.dev/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + Path + "/" + FileName + "\">https://github.rc1844.workers.dev/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + Path + "/" + FileName + "</a><br >";
-				//str += "IAPK：<a href=\"https://iapk.cc/github?url=https://github.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + Path + "/" + FileName + "\">https://iapk.cc/github?url=https://github.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + Path + "/" + FileName + "</a><br >";
-				str += "jsDelivr：<a href=\"https://cdn.jsdelivr.net/gh/" + Username + "/" + RepositoryName + "@" + BranchesName + "/" + Path + "/" + FileName + "\">https://cdn.jsdelivr.net/gh/" + Username + "/" + RepositoryName + "@" + BranchesName + "/" + Path + "/" + FileName + "</a><br >";
-				str += "Statically：<a href=\"https://cdn.staticaly.com/gh/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + Path + "/" + FileName + "\">https://cdn.staticaly.com/gh/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + Path + "/" + FileName + "</a><br >";
-				str += "韩国首尔：<a href=\"https://ghproxy.com/https://raw.githubusercontent.com/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + Path + "/" + FileName + "\">https://ghproxy.com/https://raw.githubusercontent.com/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + Path + "/" + FileName + "</a><br >";
-				str += "Github Raw：<a href=\"https://raw.githubusercontent.com/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + Path + "/" + FileName + "\">https://raw.githubusercontent.com/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + Path + "/" + FileName + "</a><br >";
-				str += "Githee Raw：<a href=\"https://gitee.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + Path + "/" + FileName+"\">https://gitee.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + Path + "/" + FileName + "</a><br >";
-				str += "Coding Raw：<a href=\"https://" + Username + ".coding.net/p/import-yjnz/d/" + RepositoryName + "/git/raw/" + BranchesName + "/" + Path + "/" + FileName+"?download=false"+"\">https://" + Username + ".coding.net/p/import-cbfl/d/" + RepositoryName + "/git/raw/" + BranchesName + "/" + Path + "/" + FileName+"?download=false</a><br >";
+				str = "FastGit：<a href=\"https://raw.fastgit.org/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + FileName + "\">https://raw.fastgit.org/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + FileName + "</a><br >";
+				//str += "Bajins：<a href=\"https://github.bajins.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + FileName + "\">https://github.bajins.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + FileName + "</a><br >";
+				str += "CF加速：<a href=\"https://github.rc1844.workers.dev/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + FileName + "\">https://github.rc1844.workers.dev/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + FileName + "</a><br >";
+				//str += "IAPK：<a href=\"https://iapk.cc/github?url=https://github.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + FileName + "\">https://iapk.cc/github?url=https://github.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + FileName + "</a><br >";
+				str += "jsDelivr：<a href=\"https://cdn.jsdelivr.net/gh/" + Username + "/" + RepositoryName + "@" + BranchesName + "/" + FileName + "\">https://cdn.jsdelivr.net/gh/" + Username + "/" + RepositoryName + "@" + BranchesName + "/" + FileName + "</a><br >";
+				str += "Statically：<a href=\"https://cdn.staticaly.com/gh/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + FileName + "\">https://cdn.staticaly.com/gh/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + FileName + "</a><br >";
+				str += "韩国首尔：<a href=\"https://ghproxy.com/https://raw.githubusercontent.com/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + FileName + "\">https://ghproxy.com/https://raw.githubusercontent.com/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + FileName + "</a><br >";
+				str += "Github Raw：<a href=\"https://raw.githubusercontent.com/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + FileName + "\">https://raw.githubusercontent.com/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + FileName + "</a><br >";
+				str += "Githee Raw：<a href=\"https://gitee.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + FileName+"\">https://gitee.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + FileName + "</a><br >";
+				str += "Coding Raw：<a href=\"https://" + Username + ".coding.net/p/import-yjnz/d/" + RepositoryName + "/git/raw/" + BranchesName + "/" + FileName+"?download=false"+"\">https://" + Username + ".coding.net/p/import-cbfl/d/" + RepositoryName + "/git/raw/" + BranchesName + "/" + FileName+"?download=false</a><br >";
 				console.log(str)
 				$("#out").html(str);
 			});
@@ -122,24 +117,18 @@
 				var Username = $("#Username").val();
 				var RepositoryName = $("#RepositoryName").val();
 				var BranchesName = $("#BranchesName").val();
-				var Path = $("#Path").val();
+				
 				var FileName = $("#FileName").val();
-				if(Path[0] == "/") {
-					Path = Path.substr(1);
-				}
-				if(Path[Path.length - 1] == "/") {
-					Path = Path.substr(0, Path.length - 1);
-				}
-				var copytxt = "FastGit：https://raw.fastgit.org/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + Path + "/" + FileName + "\n";
-				//copytxt += "Bajins：https://github.bajins.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + Path + "/" + FileName + "\n";
-				copytxt += "CF加速：https://github.rc1844.workers.dev/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + Path + "/" + FileName + "\n";
-				//copytxt += "IAPK：https://iapk.cc/github?url=https://github.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + Path + "/" + FileName + "\n";
-				copytxt += "jsDelivr：https://cdn.jsdelivr.net/gh/" + Username + "/" + RepositoryName + "@" + BranchesName + "/" + Path + "/" + FileName + "\n";
-				copytxt += "Statically：https://cdn.staticaly.com/gh/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + Path + "/" + FileName + "\n";
-				copytxt += "韩国首尔：https://ghproxy.com/https://raw.githubusercontent.com/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + Path + "/" + FileName + "\n";
-				copytxt += "Github Raw：https://raw.githubusercontent.com/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + Path + "/" + FileName+"\n";
-				copytxt += "Githee Raw：https://gitee.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + Path + "/" + FileName+"\n";
-				copytxt += "Coding Raw: https://" + Username + ".coding.net/p/import-yjnz/d/" + RepositoryName + "/git/raw/" + BranchesName + "/" + Path + "/" + FileName+"?download=false"
+				var copytxt = "FastGit：https://raw.fastgit.org/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + FileName + "\n";
+				//copytxt += "Bajins：https://github.bajins.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + FileName + "\n";
+				copytxt += "CF加速：https://github.rc1844.workers.dev/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + FileName + "\n";
+				//copytxt += "IAPK：https://iapk.cc/github?url=https://github.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + FileName + "\n";
+				copytxt += "jsDelivr：https://cdn.jsdelivr.net/gh/" + Username + "/" + RepositoryName + "@" + BranchesName + "/" + FileName + "\n";
+				copytxt += "Statically：https://cdn.staticaly.com/gh/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + FileName + "\n";
+				copytxt += "韩国首尔：https://ghproxy.com/https://raw.githubusercontent.com/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + FileName + "\n";
+				copytxt += "Github Raw：https://raw.githubusercontent.com/" + Username + "/" + RepositoryName + "/" + BranchesName + "/" + FileName+"\n";
+				copytxt += "Githee Raw：https://gitee.com/" + Username + "/" + RepositoryName + "/raw/" + BranchesName + "/" + FileName+"\n";
+				copytxt += "Coding Raw: https://" + Username + ".coding.net/p/import-yjnz/d/" + RepositoryName + "/git/raw/" + BranchesName + "/" + FileName+"?download=false"
 				var clipboard = new ClipboardJS('#copy', {
 					text: function() {
 						return copytxt;
