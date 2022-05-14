@@ -79,7 +79,7 @@
  炫动卡通,http://39.135.138.59:18890/PLTV/88888910/224/3221225720/index.m3u8
  动画王国,http://183.207.249.15/PLTV/3/224/3221225555/index.m3u8
  猪侠英雄,https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/0f03b08bc7b042358144617000fd2931/1200.m3u8
-##🇨🇳｜河南##
+##河南地方##
  河南都市[1920*1080],http://61.163.111.46/tvcdn.stream3.hndt.com/tv/e775d12dd48d4731ae8bdea77dd1e9f9_transios/playlist.m3u8?wsApp=HLS&wsMonitor=0
  河南都市[853*480],http://media.hndyjyfw.gov.cn/live/jz-henandushi/live.m3u8
  河南民生[853*480],http://media.hndyjyfw.gov.cn/live/jz-henanminsheng/live.m3u8
