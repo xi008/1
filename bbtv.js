@@ -56,13 +56,13 @@
  康巴卫视,http://111.40.196.38/PLTV/88888888/224/3221225648/index.m3u8
 ##港澳频道##
  凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G_tv1.m3u8
+ 凤凰资讯,http://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8
  寰宇新闻台,https://ssttvv1.6zxr.xyz/fhwszw/index.m3u8
  中天新闻台,https://ssttvv1.6zxr.xyz/ztxw/index.m3u8
  华视新闻台,https://ssttvv1.6zxr.xyz/tvbs56/index.m3u8
  三立新闻台,https://ssttvv1.6zxr.xyz/twtv/index.m3u8
  东森新闻台,https://ssttvv1.6zxr.xyz/dsxw/index.m3u8
  民视新闻台,https://ssttvv1.6zxr.xyz/fhwszx/index.m3u8
- 凤凰资讯,http://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8
  凤凰香港,http://183.207.249.35/PLTV/3/224/3221226975/2020215104547.m3u8
  澳门卫视,http://103.233.191.133:1935/ch3/ch3.live/playlist.m3u8
  澳门莲花,http://nettvpro.live/hls/lotustv.php
